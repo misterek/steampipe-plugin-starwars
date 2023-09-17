@@ -15,7 +15,7 @@ import (
 // Table Definition
 func tablePeopleBuild() *plugin.Table {
 	return &plugin.Table{
-		Name:        "people",
+		Name:        "starwars_person",
 		Description: "Star Wars People",
 		Get: &plugin.GetConfig{
 			Hydrate:    listPerson,
